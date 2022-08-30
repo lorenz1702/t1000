@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: T1000_Lorenz_Scherrer.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+A level-1 auxiliary file: abk.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: einleitung.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: grundlagen.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: changelog.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: T1000_Lorenz_Scherrer-blx.bib
+Database file #2: Literaturverzeichnis.bib
+Biblatex version: 3.16
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 11 entries,
+            6393 wiz_defined-function locations,
+            1281 strings with 10726 characters,
+and the built_in function-call counts, 54480 in all, are:
+= -- 3580
+> -- 1173
+< -- 485
++ -- 1131
+- -- 339
+* -- 3544
+:= -- 4811
+add.period$ -- 0
+call.type$ -- 11
+change.case$ -- 341
+chr.to.int$ -- 42
+cite$ -- 20
+duplicate$ -- 5777
+empty$ -- 5125
+format.name$ -- 543
+if$ -- 11857
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 0
+newline$ -- 319
+num.names$ -- 653
+pop$ -- 3527
+preamble$ -- 1
+purify$ -- 373
+quote$ -- 0
+skip$ -- 2260
+stack$ -- 0
+substring$ -- 5279
+swap$ -- 1646
+text.length$ -- 288
+text.prefix$ -- 10
+top$ -- 1
+type$ -- 362
+warning$ -- 0
+while$ -- 635
+width$ -- 0
+write$ -- 309

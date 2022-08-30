@@ -1,0 +1,326 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Ansmann.op.1997}{book}{}
+    \name{author}{1}{}{%
+      {{hash=AA}{%
+         family={Ansmann},
+         familyi={A\bibinitperiod},
+         given={Albert},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{AA1}
+    \strng{fullhash}{AA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{op. 1997}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{isbn}{3-540-61887-2}
+    \field{title}{Advances in atmospheric remote sensing with lidar: Selected
+  papers of the 18th International Laser Radar Conference (ILRC), Berlin, 22-26
+  July 1996}
+    \list{location}{1}{%
+      {Berlin [etc.]}%
+    }
+    \list{institution}{1}{%
+      {{International Laser Radar Conference}}%
+    }
+    \field{year}{op. 1997}
+  \endentry
+
+  \entry{Basler.2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BS}{%
+         family={Basler},
+         familyi={B\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Vieweg}}%
+    }
+    \strng{namehash}{BS1}
+    \strng{fullhash}{BS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{isbn}{9783658128449}
+    \field{title}{Encoder und Motor-Feedback-Systeme: Winkellage- und
+  Drehzahlerfassung in der industriellen Automation}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2016}
+  \endentry
+
+  \entry{Fujii.2005}{book}{}
+    \name{author}{2}{}{%
+      {{hash=FT}{%
+         family={Fujii},
+         familyi={F\bibinitperiod},
+         given={Takashi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fukuchi},
+         familyi={F\bibinitperiod},
+         given={Tetsuo},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{CRC Press}}%
+    }
+    \strng{namehash}{FTFT1}
+    \strng{fullhash}{FTFT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{isbn}{0-8247-4256-7}
+    \field{title}{Laser remote sensing}
+    \list{location}{1}{%
+      {Boca Raton [etc.]}%
+    }
+    \field{year}{2005}
+  \endentry
+
+  \entry{Ierusalimschy.op.2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=IR}{%
+         family={Ierusalimschy},
+         familyi={I\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Lua.org}%
+    }
+    \strng{namehash}{IR1}
+    \strng{fullhash}{IR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{op. 2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{edition}{4th ed.}
+    \field{isbn}{978-8-59037-986-7}
+    \field{title}{Programming in Lua}
+    \list{location}{1}{%
+      {Rio de Janeiro}%
+    }
+    \field{year}{op. 2016}
+  \endentry
+
+  \entry{Ierusalimschy.2006}{book}{}
+    \name{author}{3}{}{%
+      {{hash=IR}{%
+         family={Ierusalimschy},
+         familyi={I\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=dFLH}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Figueiredo},
+         familyi={F\bibinitperiod},
+         given={Luiz\bibnamedelima Henrique},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={{Celes Filho}},
+         familyi={C\bibinitperiod},
+         given={Waldemar},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Lua.org}%
+    }
+    \strng{namehash}{IRFLHdCW1}
+    \strng{fullhash}{IRFLHdCW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{isbn}{85-903798-3-3}
+    \field{title}{Lua 5.1 reference manual}
+    \list{location}{1}{%
+      {Rio de Janeiro}%
+    }
+    \field{year}{2006}
+  \endentry
+
+  \entry{Jung.2007}{book}{}
+    \name{author}{2}{}{%
+      {{hash=JK}{%
+         family={Jung},
+         familyi={J\bibinitperiod},
+         given={Kurt},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wrox}%
+    }
+    \strng{namehash}{JKBA1}
+    \strng{fullhash}{JKBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{isbn}{0-470-06917-1}
+    \field{title}{Beginning Lua Programming (Wrox beginning guides)}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Kuhnel.2012}{book}{}
+    \name{author}{2}{}{%
+      {{hash=KC}{%
+         family={K{\"u}hnel},
+         familyi={K\bibinitperiod},
+         given={Claus},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zwirner},
+         familyi={Z\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Skript Verl. K{\"u}hnel}}%
+    }
+    \strng{namehash}{KCZD1}
+    \strng{fullhash}{KCZD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{edition}{2., bearb. und erw. Aufl.}
+    \field{isbn}{978-3-90785-715-1}
+    \field{title}{Lua: Einsatz von Lua in Embedded Systems}
+    \list{location}{1}{%
+      {Altendorf}%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{.}{book}{}
+    \list{publisher}{1}{%
+      {{Scholars Portal}}%
+    }
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{isbn}{0-387-40075-3}
+    \field{title}{Lidar: Range-Resolved Optical Remote Sensing of the
+  Atmosphere}
+  \endentry
+
+  \entry{Martin.2013}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MRC}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {mitp}%
+    }
+    \strng{namehash}{MRC1}
+    \strng{fullhash}{MRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{isbn}{9783826696381}
+    \field{title}{Clean Code - Refactoring, Patterns, Testen und Techniken
+  f{\"u}r sauberen Code: Deutsche Ausgabe}
+    \list{location}{1}{%
+      {Frechen}%
+    }
+    \field{year}{2013}
+  \endentry
+
+  \entry{Young.2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=YD}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Packt Publishing}}%
+    }
+    \strng{namehash}{YD1}
+    \strng{fullhash}{YD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{isbn}{1-783-28133-2}
+    \field{series}{Community experience distilled}
+    \field{title}{Learning game AI programming with Lua: Leverage the power of
+  Lua programming to create game AI that focuses on motion, animation, and
+  tactics}
+    \list{location}{1}{%
+      {Birmingham, UK}%
+    }
+    \field{year}{2014}
+  \endentry
+\enddatalist
+\endinput
