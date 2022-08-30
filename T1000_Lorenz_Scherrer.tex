@@ -1,0 +1,215 @@
+%&bericht
+
+
+
+\documentclass[
+   ngerman          % neue deutsche Rechtschreibung
+  ,a4paper          % Papiergrösse
+% ,twoside          % Zweiseitiger Druck (rechts/links)
+% ,10pt             % Schriftgrösse
+% ,11pt
+  ,12pt
+  ,pdftex
+%  ,disable         % Todo-Markierungen auschalten
+]{report}
+
+% Bitte die Codierung Ihrer Dateien auswählen:
+% \usepackage[latin1]{inputenc}    % Für UNIX mit ISO-LATIN-codierten Dateien
+% \usepackage[applemac]{inputenc}  % Für Apple Mac
+% \usepackage[ansinew]{inputenc}   % Für Microsoft Windows
+\usepackage[utf8]{inputenc}        % UTF-8 codierte Dateien
+                                   % Dieses Dokument ist unter Unix erstellt, daher
+                                   % wird diese Input-Codierung benutzt.
+
+\usepackage{bericht}
+%\usepackage[onehalfspace]{setspace}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{transparent}
+\graphicspath{Bilder/}
+
+%\usepackage[backend=biber]{biblatex}
+
+\usepackage[]{biblatex}
+
+\addbibresource{Literaturverzeichnis2.bib}
+%\usepackage[backend=bibtex,style=numeric]{biblatex}
+%\bibliographystyle{unsrt}
+%\citep[vgl.][]{modOpSys}
+%\addcontentsline{toc}{section}{Literatur}
+
+
+
+%% ACHTUNG, wenn man eine eigene Formatdatei (bericht.fmt) benutzt, werden Änderungen an bericht.sty
+%% erst wirksam, wenn die Format-Datei neu erzeugt wurde!!!
+%% Genauer alle Änderungen, die textuell vor der nächsten Zeile ".... endofdump...." stehen
+%% werden erst wirksam, wenn die Formatdatei neu erzeugt wurde
+\csname endofdump\endcsname
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Angaben zur Arbeit
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\Autor}{Lorenz Scherrer}
+\newcommand{\MatrikelNummer}{4711}
+\newcommand{\Kursbezeichnung}{ka-tinf21b3}
+
+\newcommand{\FirmenName}{SICK}
+\newcommand{\FirmenStadt}{Waldkirch}
+\newcommand{\FirmenLogoDeckblatt}{\fbox{\includegraphics[width=3cm]{Bilder/lion.png}}}
+
+% Falls es kein Firmenlogo gibt:
+%  \newcommand{\FirmenLogoDeckblatt}{}
+
+\newcommand{\BetreuerFirma}{Titel Vorname Nachname}
+\newcommand{\BetreuerDHBW}{Titel Vorname Nachname}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Wird auf dem Deckblatt und in der Erklärung benutzt:
+\newcommand{\Was}{Projektarbeit}
+%\newcommand{\Was}{Projektrarbeit}
+%\newcommand{\Was}{Studienarbeit}
+%\newcommand{\Was}{Bachleorarbeit}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\Titel}{Fortentwichlung und Neugestaltung der Software des LMS4000 Demokoffers}
+\newcommand{\AbgabeDatum}{1. Oktober 2022}
+
+\newcommand{\Dauer}{12 Wochen}
+
+% \newcommand{\Abschluss}{Bachelor of Engineering}
+\newcommand{\Abschluss}{Bachelor of Science}
+
+\newcommand{\Studiengang}{Informatik / Informationstechnik}
+% \newcommand{\Studiengang}{Informatik / Angewandte Informatik}
+
+\hypersetup{%%
+  pdfauthor={\Autor},
+  pdftitle={\Titel},
+  pdfsubject={\Was}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Wenn \includeonly{..} benutzt wird, werden nur diese Kaptitel ausgegeben.
+\includeonly{
+  abk
+ ,einleitung
+ ,grundlagen
+ ,umsetzung
+ ,fazit
+ ,changelog
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Benutzt man das "biblatex"-Paket, dann muß das hier stehen:
+% siehe auch die mit BIBLATEX markierten Zeilen in bericht.sty
+%\bibliography{bericht}
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+\begin{center}
+\vspace*{-2cm}
+\FirmenLogoDeckblatt\hfill\includegraphics[width=4cm]{Bilder/dhbw-logo.png}\\[2cm]
+%\includegraphics[width=13cm]{Bilder/Demokoffer.png}
+{\Huge \Titel}\\[1cm]
+{\Huge\scshape \Was}\\[1cm]
+{\large für die Prüfung zum}\\[0.5cm]
+{\Large \Abschluss}\\[0.5cm]
+{\large des Studienganges \Studiengang}\\[0.5cm]
+{\large an der}\\[0.5cm]
+{\large Dualen Hochschule Baden-Württemberg Karlsruhe}\\[0.5cm]
+{\large von}\\[0.5cm]
+{\large\bfseries \Autor}\\[1cm]
+{\large Abgabedatum \AbgabeDatum}
+\vfill
+\end{center}
+\begin{tabular}{l@{\hspace{2cm}}l}
+Bearbeitungszeitraum	         & \Dauer 			\\
+Matrikelnummer	                 & \MatrikelNummer		\\
+Kurs			         & \Kursbezeichnung		\\
+Ausbildungsfirma	         & \FirmenName			\\
+			         & \FirmenStadt			\\
+Betreuer der Ausbildungsfirma	 & \BetreuerFirma		\\
+Gutachter der Studienakademie	 & \BetreuerDHBW		\\
+\end{tabular}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\input{erklaerung.tex}
+%C:/Users/loren/DHBW_Karlsruhe/T1000/T1000/bericht.sty
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+\tableofcontents           % Inhaltsverzeichnis hier ausgeben
+\listoffigures             % Liste der Abbildungen
+\listoftables              % Liste der Tabellen
+\lstlistoflistings         % Liste der Listings
+\listofequations           % Liste der Formeln
+
+% Jetzt kommt der "eigentliche" Text
+\include{abk}              % Abkürzungsverzeichnis
+
+\input{sickag.tex}
+
+\include{einleitung.tex}
+
+\include{grundlagen.tex}
+
+\include{umsetzung.tex}
+
+\include{fazit.tex}
+
+%\input{C:/Users/loren/DHBW_Karlsruhe/T1000/T1000/Literaturverzeichnis.bib}
+
+
+% Ab hier beginnt der Anhang
+\appendix
+\addcontentsline{toc}{chapter}{Anhang}
+
+\addcontentsline{toc}{chapter}{Index}
+\printindex
+
+%\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+
+% Haben Sie das "biblatex"-Paket nicht installiert, benutzen Sie folgendes:
+% Ohne das "biblatex"-Paket (s. bericht.sty) produziert folgendes
+% "deutsche" Zitate in Literaturverzeichnissen gemaß der Norm DIN 1505,
+% Teil 2 vom Jan. 1984.
+% Die Zitatmarken werden alphabetisch nach Verfassern
+% sortiert und sind durch abgekürzte Verfasserbuchstaben plus
+% Erscheinungsjahr in eckigen Klammern gekennzeichnet.
+
+% \bibliographystyle{alphadin}
+% \bibliography{bericht}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+% BIBLATEX
+% Benutzt man das "biblatex"-Paket, muß man folgendes schreiben:
+\def\refname{Literaturverzeichnis2}
+\printbibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+
+\include{changelog}
+
+%\newpage
+%\addcontentsline{toc}{chapter}{Liste der ToDo's}
+%\listoftodos[Liste der ToDo's]
+
+
+
+
+
+\end{document}
