@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.16)  31 AUG 2022 18:40
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.16)  29 AUG 2022 14:56
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +12,13 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22>
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+<<<<<<< HEAD
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+=======
+(C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 )
 \c@part=\count183
 \c@chapter=\count184
@@ -1085,9 +1094,26 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@eq=\toks46
 \c@eq=\count448
 )
+<<<<<<< HEAD
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
 .sty
 Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+=======
+(C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+
+
+! LaTeX Error: Unknown option `onehalfspace' for package `setspace'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.311 
+      
+The option `onehalfspace' was not declared in package `setspace', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 )
 Package csquotes Info: Checking for multilingual support...
@@ -1099,7 +1125,11 @@ Package biblatex Warning: Attempt to redefine deprecated '\mkbibnamelast'.
 (biblatex)                Using '\mkbibnamefamily'.
 
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+<<<<<<< HEAD
 4.
+=======
+1.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1112,6 +1142,7 @@ File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
 zung.aux) (fazit.aux) (changelog.aux))
 \openout1 = `T1000_Lorenz_Scherrer.aux'.
 
+<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
 LaTeX Font Info:    ... okay on input line 114.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
@@ -1130,6 +1161,26 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
 LaTeX Font Info:    ... okay on input line 114.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
 LaTeX Font Info:    ... okay on input line 114.
+=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1149,8 +1200,21 @@ ii
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+<<<<<<< HEAD
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+=======
+
+(C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
@@ -1161,7 +1225,11 @@ Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ))
+<<<<<<< HEAD
 Package hyperref Info: Link coloring OFF on input line 114.
+=======
+Package hyperref Info: Link coloring OFF on input line 111.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1175,6 +1243,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count456
 )
+<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 114.
 LaTeX Info: Redefining \pageref on input line 114.
 LaTeX Info: Redefining \nameref on input line 114.
@@ -1183,17 +1252,37 @@ Package microtype Info: Applying patch `item' on input line 114.
 Package microtype Info: Applying patch `toc' on input line 114.
 Package microtype Info: Applying patch `eqnum' on input line 114.
 Package microtype Info: Applying patch `footnote' on input line 114.
+=======
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
+LaTeX Info: Redefining \microtypecontext on input line 111.
+Package microtype Info: Applying patch `item' on input line 111.
+Package microtype Info: Applying patch `toc' on input line 111.
+Package microtype Info: Applying patch `eqnum' on input line 111.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 111.
+
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
+<<<<<<< HEAD
 LaTeX Info: Redefining \showhyphens on input line 114.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
+=======
+LaTeX Info: Redefining \showhyphens on input line 111.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -1202,7 +1291,11 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+<<<<<<< HEAD
 loading the todonotes package. on input line 114.
+=======
+loading the todonotes package. on input line 111.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -1250,6 +1343,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'T1000_Lorenz_Scherrer.bbl' found.
  (T1000_Lorenz_Scherrer.bbl)
+<<<<<<< HEAD
 Package biblatex Info: Reference section=0 on input line 114.
 Package biblatex Info: Reference segment=0 on input line 114.
 \c@lstlisting=\count457
@@ -1263,40 +1357,70 @@ File: Bilder/dhbw-logo.png Graphic file (type png)
 <use Bilder/dhbw-logo.png>
 Package pdftex.def Info: Bilder/dhbw-logo.png  used on input line 121.
 (pdftex.def)             Requested size: 113.81102pt x 55.01154pt.
+=======
+Package biblatex Info: Reference section=0 on input line 111.
+Package biblatex Info: Reference segment=0 on input line 111.
+\c@lstlisting=\count457
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/24.88'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+<<<<<<< HEAD
 35.
+=======
+31.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+<<<<<<< HEAD
 35.
+=======
+31.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+<<<<<<< HEAD
 135.
+=======
+131.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+<<<<<<< HEAD
 135.
+=======
+131.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <12> on input line 135.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 135.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 135.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 135
+=======
+(Font)              <10.95> on input line 131.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 131.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 131.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 .
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1305,7 +1429,11 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Trying to load font information for U+msb on input line 135
+=======
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 .
 
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1316,12 +1444,35 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 [1
 
+<<<<<<< HEAD
 {C:/Users/loren/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Bilder/lio
 n.png (PNG copy)> <./Bilder/dhbw-logo.png>] (erklaerung.tex)
+=======
+{C:/Users/loren/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(erklaerung.tex)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 C:/Users/loren/DHBW_
+                          Karlsruhe/T1000/T1000/bericht.sty
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.148 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.154 \newpage
                [1] (T1000_Lorenz_Scherrer.toc)
 \tf@toc=\write6
@@ -1335,11 +1486,50 @@ l.154 \newpage
 
 
 [3
+=======
+l.149 \begin{abstract}
+                       [1]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+54.
+
+(C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.159 \end{abstract}
+                     [1] (T1000_Lorenz_Scherrer.toc)
+\tf@toc=\write6
+\openout6 = `T1000_Lorenz_Scherrer.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.163 \listoffigures
+                                 % Liste der Abbildungen [1
+
+]
+(T1000_Lorenz_Scherrer.lof)
+\tf@lof=\write7
+\openout7 = `T1000_Lorenz_Scherrer.lof'.
+
+ [2
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 ] (T1000_Lorenz_Scherrer.lot)
 \tf@lot=\write8
 \openout8 = `T1000_Lorenz_Scherrer.lot'.
 
+<<<<<<< HEAD
  [4
 
 ] (T1000_Lorenz_Scherrer.lol)
@@ -1354,6 +1544,22 @@ l.154 \newpage
 \openout10 = `T1000_Lorenz_Scherrer.for'.
 
  [6
+=======
+ [3
+
+]
+(T1000_Lorenz_Scherrer.lol)
+\tf@lol=\write9
+\openout9 = `T1000_Lorenz_Scherrer.lol'.
+
+ [4
+
+] (T1000_Lorenz_Scherrer.for)
+\tf@for=\write10
+\openout10 = `T1000_Lorenz_Scherrer.for'.
+
+ [5
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 ]
 \openout2 = `abk.aux'.
@@ -1362,6 +1568,7 @@ l.154 \newpage
 No file abk.tex.
 (sickag.tex
 Kapitel 1.
+<<<<<<< HEAD
 ! Undefined control sequence.
 l.3 \doublespacing
                   
@@ -1371,6 +1578,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+=======
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 ! Misplaced alignment tab character &.
 l.6 bis zum 10.01.2022 in der Abteilung Distance &
                                                    Ranging BU83 bei der
@@ -1381,20 +1590,33 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+<<<<<<< HEAD
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 [7
+=======
+[6
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 
 
 
 ]
+<<<<<<< HEAD
 <Bilder/SICK AG Hauptsitz.jpg, id=135, 707.64375pt x 504.38437pt>
+=======
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+ [7]
+<Bilder/SICK AG Hauptsitz.jpg, id=141, 707.64375pt x 504.38437pt>
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 File: Bilder/SICK AG Hauptsitz.jpg Graphic file (type jpg)
 <use Bilder/SICK AG Hauptsitz.jpg>
 Package pdftex.def Info: Bilder/SICK AG Hauptsitz.jpg  used on input line 42.
 (pdftex.def)             Requested size: 369.88582pt x 263.64362pt.
+<<<<<<< HEAD
  [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
 has been already used, duplicate ignored
@@ -1403,13 +1625,25 @@ has been already used, duplicate ignored
 l.67 
       <./Bilder/SICK AG Hauptsitz.jpg>]
 <Bilder/Demokoffer.png, id=141, 615.0478pt x 470.50781pt>
+=======
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
+<Bilder/Demokoffer.png, id=146, 615.0478pt x 470.50781pt>
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 File: Bilder/Demokoffer.png Graphic file (type png)
 <use Bilder/Demokoffer.png>
 Package pdftex.def Info: Bilder/Demokoffer.png  used on input line 75.
 (pdftex.def)             Requested size: 369.88582pt x 282.96017pt.
 
 
+<<<<<<< HEAD
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+=======
+LaTeX Warning: `h' float specifier changed to `ht'.
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1418,20 +1652,40 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 05.
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+<<<<<<< HEAD
 )) [9]
 [10
+=======
+) [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.107 
+       <./Bilder/SICK AG Hauptsitz.jpg>] [10
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.166 \include{einleitung.tex}
                               
+=======
+l.107 
+      
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.166 \include{einleitung.tex}
                                <./Bilder/Demokoffer.png>]
+=======
+l.107 
+       <./Bilder/Demokoffer.png>]) [11]
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 \openout2 = `einleitung.aux'.
 
 
@@ -1450,12 +1704,17 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+<<<<<<< HEAD
 [11
+=======
+[12
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 
 
 
 
+<<<<<<< HEAD
 ] [12]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 38.
@@ -1498,10 +1757,19 @@ der DBS36/50 ver-wen-det. Inkremental-
  []
 
 [14]) [15]
+=======
+] [13]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 38.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 38.
+) [14] [15]
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 \openout2 = `umsetzung.aux'.
 
  (umsetzung.tex
 Kapitel 3.
+<<<<<<< HEAD
 ! Undefined control sequence.
 l.2 \doublespacing
                   
@@ -1520,11 +1788,14 @@ ne 20.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+=======
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 ) [16
 
 
 
 
+<<<<<<< HEAD
 ] [17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
@@ -1547,12 +1818,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) [18
+=======
+]
+\openout2 = `fazit.aux'.
+
+ (fazit.tex
+Kapitel 4.
+) [17
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 
 
 
 
 ]
 No file T1000_Lorenz_Scherrer.ind.
+<<<<<<< HEAD
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 01.
 (C:\Users\loren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
@@ -1568,21 +1848,32 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 [20]
+=======
+[18
+
+
+
+] [19]
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 \openout2 = `changelog.aux'.
 
 
 No file changelog.tex.
 (T1000_Lorenz_Scherrer.aux (abk.aux) (einleitung.aux) (grundlagen.aux)
 (umsetzung.aux) (fazit.aux) (changelog.aux))
+<<<<<<< HEAD
 
 Package biblatex Warning: Please rerun LaTeX.
 (biblatex)                Page breaks have changed.
 
+=======
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 Package logreq Info: Writing requests to 'T1000_Lorenz_Scherrer.run.xml'.
 \openout1 = `T1000_Lorenz_Scherrer.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  35456 strings out of 478659
  670222 string characters out of 2845920
  1362136 words of memory out of 3000000
@@ -1607,4 +1898,42 @@ PDF statistics:
  382 PDF objects out of 1000 (max. 8388607)
  71 named destinations out of 1000 (max. 500000)
  45827 words of extra memory for PDF output out of 51595 (max. 10000000)
+=======
+ 35437 strings out of 478659
+ 669730 string characters out of 2845920
+ 1361436 words of memory out of 3000000
+ 52628 multiletter control sequences out of 15000+600000
+ 485875 words of font info for 167 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 114i,9n,108p,1918b,2329s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/loren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/
+Users/loren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Use
+rs/loren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Use
+rs/loren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/l
+oren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/l
+oren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/l
+oren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/l
+oren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/
+loren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/
+loren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/l
+oren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/lo
+ren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/lor
+en/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/lore
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/loren/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/loren/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/loren/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/loren/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/loren/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/loren/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on T1000_Lorenz_Scherrer.pdf (22 pages, 1106977 bytes).
+PDF statistics:
+ 370 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 47831 words of extra memory for PDF output out of 51595 (max. 10000000)
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 

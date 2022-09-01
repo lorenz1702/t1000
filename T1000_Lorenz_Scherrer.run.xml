@@ -41,7 +41,11 @@
   >
 ]>
 <requests version="1.0">
+<<<<<<< HEAD
   <internal package="biblatex" priority="9" active="1">
+=======
+  <internal package="biblatex" priority="9" active="0">
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
     <generic>latex</generic>
     <provides type="dynamic">
       <file>T1000_Lorenz_Scherrer.aux</file>
@@ -85,7 +89,11 @@
       <file>T1000_Lorenz_Scherrer-blx.bib</file>
     </requires>
     <requires type="editable">
+<<<<<<< HEAD
       <file>Literaturverzeichnis2.bib</file>
+=======
+      <file>Literaturverzeichnis.bib</file>
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

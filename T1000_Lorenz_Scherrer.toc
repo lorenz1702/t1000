@@ -1,16 +1,25 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {1}Einleitung}{7}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Vorwort}{7}{section.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Einleitung}{7}{section.1.2}%
+=======
+\contentsline {chapter}{\numberline {1}Einleitung}{6}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Vorwort}{6}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Einleitung}{6}{section.1.2}%
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}SICK AG}{8}{section.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}Geschichte}{8}{subsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {1.3.2}Unternehmensstruktur}{9}{subsection.1.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Ausgangssituation}{9}{section.1.4}%
@@ -30,6 +39,23 @@
 \contentsline {subsection}{\numberline {2.3.1}Objektvermessung}{14}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Encoder}{14}{section.2.4}%
+=======
+\contentsline {subsection}{\numberline {1.3.2}Unternehmensstruktur}{8}{subsection.1.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Ausgangssituation}{9}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Aufgabenstellung}{11}{section.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Grundlagen}{12}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Appstudio}{12}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}LUA}{14}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}LMS4000}{15}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Encoder}{15}{section.2.4}%
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Clean Coding}{15}{section.2.5}%
 \defcounter {refsection}{0}\relax 
@@ -37,14 +63,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Kommunikation zwischen ScanDriver und DK App}{16}{section.3.1}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.1.1}LMS4K ScanDiver}{16}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}DK App}{16}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
+=======
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
 \contentsline {section}{\numberline {3.2}Neugestaltung der GUI}{16}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Behebung des Überlauf des Encoders}{16}{section.3.3}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {4}Fazit und Ausblick}{18}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Fazit}{18}{section.4.1}%
@@ -54,3 +84,16 @@
 \contentsline {chapter}{Anhang}{19}{section.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Index}{19}{section.4.2}%
+=======
+\contentsline {chapter}{\numberline {4}Umsetzung}{17}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Fazit und Ausblick}{17}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Fazit}{17}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Ausblick}{17}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anhang}{18}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Index}{18}{section.4.3}%
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e

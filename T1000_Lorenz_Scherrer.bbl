@@ -17,6 +17,7 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+<<<<<<< HEAD
   \entry{.31.08.2022}{misc}{}
     \field{labeltitlesource}{title}
     \field{labelyear}{31.08.2022}
@@ -38,6 +39,8 @@
     \field{urlyear}{2022}
   \endentry
 
+=======
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
   \entry{Ansmann.op.1997}{book}{}
     \name{author}{1}{}{%
       {{hash=AA}{%
@@ -100,6 +103,7 @@
     \field{year}{2016}
   \endentry
 
+<<<<<<< HEAD
   \entry{.31.08.2022b}{misc}{}
     \field{labeltitlesource}{title}
     \field{labelyear}{31.08.2022}
@@ -121,6 +125,8 @@
     \field{urlyear}{2022}
   \endentry
 
+=======
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
   \entry{Fujii.2005}{book}{}
     \name{author}{2}{}{%
       {{hash=FT}{%
@@ -155,6 +161,7 @@
     \field{year}{2005}
   \endentry
 
+<<<<<<< HEAD
   \entry{Ierusalimschy.2013}{book}{}
     \name{author}{1}{}{%
       {{hash=IR}{%
@@ -204,6 +211,8 @@
     \field{year}{2013}
   \endentry
 
+=======
+>>>>>>> 906a2fd125ea08bc1c06fca24a1a67260a2d768e
   \entry{Ierusalimschy.op.2016}{book}{}
     \name{author}{1}{}{%
       {{hash=IR}{%
